@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="academy.listeners"/>
+<listener class-name="academy.ExtentReporterNG"/>
+</listeners>
+  <test thread-count="5" name="Test"/>
+  <test  name="fullframe">
+    <classes>
+      <class name="academy.FullframeHomePage"/> 
+        </classes>
+        </test>
+    
+     <test  name="Validation">
+     <classes>
+      <class name="academy.ValidationTest"/>
+     </classes>
+      </test>
+    
+</suite> <!-- Suite -->
